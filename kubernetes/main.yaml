@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: portfolio
+  labels:
+    app: portfolio
+spec:
+  restartPolicy: Never
+  containers:
+  - name: portfolio
+    image: doll1av/testing:latest
